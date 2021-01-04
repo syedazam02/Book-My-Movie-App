@@ -21,6 +21,8 @@ while(True):
         obj.show_booked_ticket()
 
     if ch == "0":
+        obj = Cinema()
+        obj.exit_method()
         break
 
 

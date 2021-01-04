@@ -124,3 +124,9 @@ class Cinema:
             print("Phone No:", res[4])
         else:
             print("Ticket for respective seat is not booked.")
+     
+    def exit_method(self):
+        sql = "delete from customer"
+        mycursor.execute(sql)
+        mydb.commit()
+    
